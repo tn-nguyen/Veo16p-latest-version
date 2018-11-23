@@ -94,7 +94,7 @@ th {font-weight:normal;}
 /**************************************************************************************************************************************/
 
 /* button */
-#c_g_div_button {float:right; margin-right:100px;}
+#c_g_div_button {float:right;}
 #c_g_div_button input { float:left; margin-right:7px; }
 
 /* Message */

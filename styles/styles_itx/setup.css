@@ -595,7 +595,7 @@ div#cam_tamper table td {height:23px; border-bottom:1px solid #E6F0F9; text-alig
 
 .c_sp_div_system {margin-top: 10px; margin-bottom:40px;}
 .c_sp_div_system .butdisp {width:170px; height:21px; margin-left:5px; text-align: center;  color: #373487;}
-.c_sp_div_system .lstdisp {width:170px; height:21px; margin-left:5px; text-align: left;  color: #000;}
+.c_sp_div_system .lstdisp {width:174px; height:21px; text-align: left;  color: #000;}
 .c_sp_div_system .txtdisp {width:170px; height:19px; margin-left:5px; text-align: left;  color: #373487;}
 .c_sp_div_system .txtlist {font-weight:normal;  color:#78ABCD; letter-spacing:0; text-decoration:none; line-height:24px; text-align: right;}
 
@@ -1060,7 +1060,7 @@ input#port_status {width:170px;}
 #dialog_filter dl dd input  {width:36px; margin:2px 0 1px 0; border:1px solid #A3BCD3;  color: #373487;}
 
 /* Network RTP */
-.network_rtp_setup h1{font-weight:bold; color:#373487; font-size:14px; font-size: 1.2em;  letter-spacing:-1; font-family:Arial; text-decoration:none; line-height:24px}
+.network_rtp_setup h1{font-weight:bold; color:#FFFFFF; font-size:14px; font-size: 1.2em;  letter-spacing:-1; font-family:Arial; text-decoration:none; line-height:24px}
 .network_rtp_setup h2{font-weight:bold; color:#C3C3C3; font-size:13px; background-color:#4D4D4E; font-size:14px; font-family:Arial; text-decoration:none; line-height:24px; padding:3px 3px 3px 10px;margin:5px 5px 5px 5px;}
 .network_rtp_setup dl {line-height: 24px; padding-left: 20PX}
 .network_rtp_setup dl dt {width:300px; margin-right: 14px; font-weight:normal;  color:#78ABCD; letter-spacing:0; text-decoration:none; text-align:right; float:left; }
@@ -1370,7 +1370,10 @@ option.red    ,select.red   {background-color:red;}
 #c_sp_div_contents #c_g_div_button,
 #camsetting_cam #c_g_div_button,
 #camsetting_image  #c_g_div_button {
-  margin-right: 33px;
+  margin-right: 25px;
+}
+#motion-tab > #c_g_div_button{
+  margin-right: -7px;
 }
 /*END :: i3 custom layout*/
 
@@ -1650,7 +1653,6 @@ div#fragment-email > dl > dd,
 }
 #automatic_config > div > ul#auto {
   width: 730px;
-  padding-left: 305px;
 }
 #automatic_config > div > ul > li > #hd_priority {
   width:269px;
@@ -1730,7 +1732,7 @@ div.c_sp_div_net > dl > dd > #maxtx,
 div.c_sp_div_net > dl > dd > #port_status {width: 220px;}
 /*NETWORK - SECURITY */
 #system_id,
-div.for_ipx.rtsp_service > dl > dd > #srtsp_method {width: 166px;}
+div.for_ipx.rtsp_service > dl > dd > #srtsp_method {width: 170px;}
 /*Tin #11200 - 20171101*/
 /*EVENT - ALARM - ON/OFF SCHEDULE */
 div#popupCP > ul > li > label > input[type="checkbox"]{margin-right: 5px;}
@@ -2023,3 +2025,19 @@ thead email_sched_time{
 #email_freq, #ftp_fname_mode, #ftp_dir_mode {
     width: 170px;
 } 
+
+.analog_type_for_5hg_model .c_sp_tb_cam_analogtype_5hd tbody tr td .add_width_90_per {
+  width: 100%;
+}
+
+.c_sp_div_frame.c_sp_div_frame_dot #c_g_div_button{
+  margin-right: -7px !important;
+}
+
+#netsetting_rtp #c_sp_div_contents  #c_g_div_button{
+  margin-right: 12px !important;
+}
+
+#system_id{
+  width: 173px;
+}

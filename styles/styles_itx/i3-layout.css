@@ -55,6 +55,9 @@ body {
     background-color: #272727;
     border: none;
 }
+#c_l_div_livefrm #c_l_div_live{
+    margin-bottom: 0px !importants;
+}
 
 #c_g_div_wrapper {
     width: 1012px;
@@ -248,8 +251,8 @@ body {
     width: 35px;
 }
     #c_l_div_toolbar li.divided img {
-        width: 35px;
-        height: 35px;
+        width: 34px;
+        height: 34px;
     }
 
 #c_l_div_ptz_contents table.c_l_tb_pantilt {
@@ -516,3 +519,12 @@ body {
   padding-left: 12px;
 }
 /*END Nguyen 20171102*/
+
+
+#c_l_div_livefrm #c_l_div_live{
+    margin-bottom: 0px !important;
+}
+
+.playback #c_sh_div_shfrm #c_sh_div_search{
+    margin-bottom: 0px !important;
+}
